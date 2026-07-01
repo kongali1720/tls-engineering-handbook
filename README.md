@@ -78,25 +78,80 @@ M --> N[Real-world Projects]
 # 📂 Repository Structure
 
 ```text
-.
+
+tls-engineering-handbook/
+│
 ├── README.md
 ├── LICENSE
-├── docs/
+├── CHANGELOG.md
+├── ROADMAP.md
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── CODE_OF_CONDUCT.md
+├── SUPPORT.md
+├── FAQ.md
+├── GLOSSARY.md
+├── REFERENCES.md
+├── LEARNING_PATH.md
+├── ACKNOWLEDGEMENTS.md
+├── .gitignore
+├── .editorconfig
+├── .gitattributes
+├── .markdownlint.json
+├── .pre-commit-config.yaml
 │
-├── 01-networking/
-├── 02-http/
-├── 03-https/
-├── 04-tls/
-├── 05-openssl/
-├── 06-certificates/
-├── 07-certificate-chain/
-├── 08-san/
-├── 09-cipher-suites/
-├── 10-troubleshooting/
-├── labs/
+├── docs/
+│   ├── architecture.md
+│   ├── tls-overview.md
+│   ├── certificate-lifecycle.md
+│   ├── troubleshooting.md
+│   └── diagrams.md
+│
 ├── cheatsheets/
+│   ├── openssl.md
+│   ├── curl.md
+│   ├── dig.md
+│   └── tcpdump.md
+│
+├── labs/
+│   ├── lab01-openssl.md
+│   ├── lab02-certificate.md
+│   ├── lab03-san.md
+│   ├── lab04-chain.md
+│   ├── lab05-cipher.md
+│   └── lab06-tls13.md
+│
+├── examples/
+│   ├── openssl/
+│   ├── nginx/
+│   ├── apache/
+│   └── python/
+│
 ├── scripts/
-└── assets/
+│   ├── check_certificate.sh
+│   ├── tls_info.sh
+│   ├── cert_expiry.sh
+│   └── tls_scan.py
+│
+├── assets/
+│   ├── banner.png
+│   ├── logo.svg
+│   ├── tls-handshake.png
+│   └── certificate-chain.png
+│
+├── templates/
+│   ├── lab-template.md
+│   ├── notes-template.md
+│   └── writeup-template.md
+│
+└── .github/
+    ├── ISSUE_TEMPLATE/
+    │   ├── bug_report.md
+    │   └── feature_request.md
+    ├── pull_request_template.md
+    └── workflows/
+        ├── markdown.yml
+        └── lint.yml
 ```
 
 ---
